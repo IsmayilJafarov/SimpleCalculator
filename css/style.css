@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #787878;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.container{
+    width: 350px;
+    background: #787878;
+    border-radius: 7px;
+}
+
+.input-a {
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.input-b {
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.select-operation {
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.btn-result {
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.output {
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
+}
